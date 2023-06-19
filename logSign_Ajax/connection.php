@@ -3,7 +3,7 @@
 try{
     $dbHost = "localhost";
     $dbName = "db_login";
-    $dbUser = "developer";
+    $dbUser = "phpmyadmin";
     $dbPassword = "root";
         $myConn = new PDO("mysql:host=$dbHost;dbname=$dbName;",$dbUser,$dbPassword);
         $myConn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
